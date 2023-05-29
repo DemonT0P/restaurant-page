@@ -1,0 +1,21 @@
+.contact {
+  background-color: plum;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  gap: 24px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.contact__user {
+  border: 3px solid rgba(255, 192, 203, 0.397);
+  max-width: 600px;
+  padding: 8px 3%;
+  font-weight: bold;
+  min-width: 40%;
+  line-break: auto;
+  font-size: min(2.5vw, 1rem);
+}
